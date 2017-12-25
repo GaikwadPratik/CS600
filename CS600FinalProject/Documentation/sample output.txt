@@ -1,0 +1,65 @@
+PS C:\Users\pratik\Desktop\CS600FinalProject> dotnet build
+Microsoft (R) Build Engine version 15.4.8.50001 for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  CS600FinalProject -> C:\Users\pratik\Desktop\CS600FinalProject\bin\Debug\netcoreapp2.0\CS600FinalProject.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.22
+PS C:\Users\pratik\Desktop\CS600FinalProject> dotnet run
+Started reading webpages
+1, https://www.stevens.edu/news/stevens-names-dr-jean-zu-dean-schaefer-school-engineering-science
+2, https://www.stevens.edu/admissions/undergraduate-admissions/how-apply
+3, https://www.stevens.edu/give-now
+4, https://www.stevens.edu/learn-about-giving
+5, https://www.stevens.edu/future-student
+6, https://www.stevens.edu/parents-and-family-members
+Finished reading webpages.
+
+Creating trie from the contents of the webpages
+Creation of trie completed
+
+Enter input to search or just press 'Enter' key to exit
+Hoboken
+Word 'Hoboken' is found in the pages as below based on frequency in descending order
+Url: https://www.stevens.edu/parents-and-family-members with frequency: 7
+Url: https://www.stevens.edu/news/stevens-names-dr-jean-zu-dean-schaefer-school-engineering-science with frequency: 2
+Url: https://www.stevens.edu/give-now with frequency: 1
+
+The complete search input 'Hoboken' is found in the pages as below
+Url: https://www.stevens.edu/parents-and-family-members
+Url: https://www.stevens.edu/news/stevens-names-dr-jean-zu-dean-schaefer-school-engineering-science
+Url: https://www.stevens.edu/give-now
+
+Enter input to search or just press 'Enter' key to exit
+sssss
+'sssss' not found
+
+Enter input to search or just press 'Enter' key to exit
+hoboken new
+Word 'hoboken' is found in the pages as below based on frequency in descending order
+Url: https://www.stevens.edu/parents-and-family-members with frequency: 7
+Url: https://www.stevens.edu/news/stevens-names-dr-jean-zu-dean-schaefer-school-engineering-science with frequency: 2
+Url: https://www.stevens.edu/give-now with frequency: 1
+
+Word 'new' is found in the pages as below based on frequency in descending order
+Url: https://www.stevens.edu/news/stevens-names-dr-jean-zu-dean-schaefer-school-engineering-science with frequency: 1
+
+The complete search input 'hoboken new' is found in the pages as below
+Url: https://www.stevens.edu/news/stevens-names-dr-jean-zu-dean-schaefer-school-engineering-science
+
+Enter input to search or just press 'Enter' key to exit
+hoboken ssss
+Word 'hoboken' is found in the pages as below based on frequency in descending order
+Url: https://www.stevens.edu/parents-and-family-members with frequency: 7
+Url: https://www.stevens.edu/news/stevens-names-dr-jean-zu-dean-schaefer-school-engineering-science with frequency: 2
+Url: https://www.stevens.edu/give-now with frequency: 1
+
+'hoboken ssss' not found
+
+Enter input to search or just press 'Enter' key to exit
+
+Good bye!!!
